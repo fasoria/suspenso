@@ -45,12 +45,7 @@
     console.log("Nuevo mensaje:"+message.payloadString); 
 	document.getElementById("sensor1").innerHTML=message.payloadString.split("=")[1];
 	document.getElementById("sensor2").innerHTML=message.payloadString.split("=")[2];
-    S1=document.getElementById("sensor")
-    S2=document.getElementById("sensor1")
-    S3=document.getElementById("sensor2")
-    S4.innerHTML=" "+Mensaje.split(":")[3];
-    S5.innerHTML=" "+Mensaje.split(":")[4];
-    S6.innerHTML=" "+Mensaje.split(":")[5];
+    
   }
 
 
